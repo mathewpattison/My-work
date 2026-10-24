@@ -12,8 +12,6 @@ class _AnimatConState extends State<AnimatCon> {
   late ScrollController scrollController;
   bool scroll=false;
 
-
-
   @override
   void initState(){
     super.initState();
@@ -44,7 +42,6 @@ class _AnimatConState extends State<AnimatCon> {
     }
   }
 
-
 //coditions for contoller 'Physics' using scroll controller offset
 ScrollPhysics getScrollPhysics() {
   if (!scrollController.hasClients) {
@@ -62,8 +59,6 @@ ScrollPhysics getScrollPhysics() {
     return ScrollPhysics();
   }
 }
-
-  
 
 @override
 void dispose(){
