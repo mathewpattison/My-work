@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
+import 'dart:ui';
 
 class Animated_PageView extends StatefulWidget{
 const Animated_PageView({super.key});
