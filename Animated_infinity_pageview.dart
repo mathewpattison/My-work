@@ -9,7 +9,7 @@ const Animated_PageView({super.key});
 State<Animated_PageView> createState()=> _Animated_PageViewState();
 }
 
-class _Animated_PageViewState extends  State<Animated_PageView> {
+class _Animated_PageViewState extends  State<Animated_PageView> { 
 
   final List<String> images=List.generate(6, (index)=>'assets/images/dm${index+1}.jpg');
 
